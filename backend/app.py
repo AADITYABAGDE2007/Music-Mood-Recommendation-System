@@ -2,6 +2,10 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 import pandas as pd
+import random
+
+import json
+import os
 
 app = Flask(__name__)
 CORS(app)   # React + Flask connect करने के लिए
@@ -11,6 +15,18 @@ model = joblib.load("model.pkl")
 
 # Load dataset (backend folder में होना चाहिए)
 df = pd.read_csv("spotify_dataset.csv", encoding="latin1")
+
+# Load fetched rich songs data
+if os.path.exists("songs_db.json"):
+    with open("songs_db.json", "r") as f:
+        curated_songs = json.load(f)
+else:
+    curated_songs = {
+        "Happy": [],
+        "Sad": [],
+        "Energetic": [],
+        "Calm": []
+    }
 
 @app.route("/predict", methods=["POST"])
 def predict():
@@ -26,21 +42,20 @@ def predict():
 @app.route("/recommend", methods=["POST"])
 def recommend():
     data = request.get_json()
-    mood = data["mood"]
-
-    # Mood के हिसाब से filter logic
-    if mood == "Happy":
-        songs = df[df["valence_%"] > 70]["track_name"].head(5).tolist()
-    elif mood == "Sad":
-        songs = df[df["valence_%"] < 30]["track_name"].head(5).tolist()
-    elif mood == "Energetic":
-        songs = df[df["energy_%"] > 70]["track_name"].head(5).tolist()
-    elif mood == "Calm":
-        songs = df[df["energy_%"] < 40]["track_name"].head(5).tolist()
-    else:
-        songs = df["track_name"].head(5).tolist()
-
-    return jsonify({"mood": mood, "songs": songs})
+    mood = data.get("mood", "Happy")
+    
+    songs = curated_songs.get(mood, curated_songs["Happy"])
+    
+    recommendations = []
+    # Mix and shuffle 
+    mood_songs = random.sample(songs, min(15, len(songs)))
+    for s in mood_songs:
+        s_copy = s.copy()
+        s_copy["mood"] = mood
+        recommendations.append(s_copy)
+    
+    random.shuffle(recommendations)
+    return jsonify({"mood": mood, "songs": recommendations})
 
 if __name__ == "__main__":
     app.run(debug=True)

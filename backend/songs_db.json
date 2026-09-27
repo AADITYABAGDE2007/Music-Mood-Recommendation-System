@@ -1,0 +1,178 @@
+{
+    "Happy": [
+        {
+            "track_name": "Chaleya",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/047/d1366530468931703ac909e82a3ee788_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/047/Jawan-Hindi-2023-20230921190854-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Gulabi Sadi",
+            "artist": "Sanju Rathod",
+            "previewUrl": "https://aac.saavncdn.com/593/9fb3c6beb376d59dbcb819c9efce63e2_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/593/Gulabi-Sadi-Marathi-2024-20240220043332-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Nauvari",
+            "artist": "Sanju Rathod",
+            "previewUrl": "https://aac.saavncdn.com/729/3e8c7c03029c532715051e1435aa0c77_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/729/Nauvari-Marathi-2023-20241224132936-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Jhoome Jo Pathaan",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/807/ef11e75a9044f5148769abaa8cfb14c1_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/807/Pathaan-Hindi-2022-20221222104158-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "What Jhumka?",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/001/a03631c9d383bac6ed57524bfb79ad96_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/001/Rocky-Aur-Rani-Kii-Prem-Kahaani-Hindi-2023-20250130073112-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Maan Meri Jaan",
+            "artist": "King",
+            "previewUrl": "https://aac.saavncdn.com/734/31a101fae38e184208e5f95e3e6c756d_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/734/Champagne-Talk-Hindi-2022-20221008011951-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Dimple",
+            "artist": "Sanju Rathod",
+            "previewUrl": "https://aac.saavncdn.com/920/4ab4703b27a25b261907f49f61a40b61_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/920/Dimple-Rap-Marathi-2022-20240704033715-500x500.jpg",
+            "duration": 30000
+        }
+    ],
+    "Sad": [
+        {
+            "track_name": "Satranga",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/092/d678d7ca0a158567bbddc6a10eb2f490_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/092/ANIMAL-Hindi-2023-20231124191036-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "O Maahi",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/139/61036495c7ba45adf72a856b60f054fd_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/139/Dunki-Hindi-2023-20231220211003-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Pehle Bhi Main",
+            "artist": "Vishal Mishra",
+            "previewUrl": "https://aac.saavncdn.com/092/b3acb226721d5e51e788e9838f0261c3_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/092/ANIMAL-Hindi-2023-20231124191036-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Tum Kya Mile",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/001/c5f5a30fa60d1340dde31e4bd2184934_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/001/Rocky-Aur-Rani-Kii-Prem-Kahaani-Hindi-2023-20250130073112-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Ve Kamleya",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/001/f2a6e1f5d4e929ba7962bc2a494c4b17_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/001/Rocky-Aur-Rani-Kii-Prem-Kahaani-Hindi-2023-20250130073112-500x500.jpg",
+            "duration": 30000
+        }
+    ],
+    "Energetic": [
+        {
+            "track_name": "Arjan Vailly",
+            "artist": "Bhupinder Babbal",
+            "previewUrl": "https://aac.saavncdn.com/092/d9de9a7d46dca31c86b5d25c22a8f62b_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/092/ANIMAL-Hindi-2023-20231124191036-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Sher Khul Gaye",
+            "artist": "Vishal Dadlani",
+            "previewUrl": "https://aac.saavncdn.com/386/6f2ecd5e77a9f5976ba27cadf6f658b5_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/386/Sher-Khul-Gaye-From-Fighter-Hindi-2023-20240104201038-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Zinda Banda",
+            "artist": "Anirudh Ravichander",
+            "previewUrl": "https://aac.saavncdn.com/047/21d61f333af72f4a0bf11059411e1692_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/047/Jawan-Hindi-2023-20230921190854-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Lutt Putt Gaya",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/139/872431d8e48775ca35d30e2d6ee79f5d_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/139/Dunki-Hindi-2023-20231220211003-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Naatu Naatu",
+            "artist": "Rahul Sipligunj",
+            "previewUrl": "https://aac.saavncdn.com/683/000ab54759049a8451ffcdc6412a0ef6_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/683/RRR-Telugu-Telugu-2022-20250828171313-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Style Maarna",
+            "artist": "Sanju Rathod",
+            "previewUrl": "https://aac.saavncdn.com/634/c19474e494116361fddf2e6db2ffed64_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/634/Shaky-Marathi-2025-20250422143320-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Taambdi Chaamdi",
+            "artist": "Sanju Rathod",
+            "previewUrl": "https://aac.saavncdn.com/189/1c6aaf31cf7dfa6d3f1aa73ccfb1fa6a_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/189/Taambdi-Chaamdi-Marathi-2024-20240813204703-500x500.jpg",
+            "duration": 30000
+        }
+    ],
+    "Calm": [
+        {
+            "track_name": "Apna Bana Le",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/815/483a6e118e8108cbb3e5cd8701674f32_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/815/Bhediya-Hindi-2023-20230927155213-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Tere Hawaale",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/576/b34009b2f8262c379ac410d8e32f7206_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/576/Laal-Singh-Chaddha-Hindi-2022-20220805121002-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Heeriye",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/022/a192e8d320ea5630db314d04fedf0aa5_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/022/Heeriye-feat-Arijit-Singh-Hindi-2023-20230928050405-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Raabta",
+            "artist": "Arijit Singh",
+            "previewUrl": "https://aac.saavncdn.com/603/40a507a84a1045c70af28f1fc79384bf_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/603/Agent-Vinod-2012-500x500.jpg",
+            "duration": 30000
+        },
+        {
+            "track_name": "Majha Bappa",
+            "artist": "Sanju Rathod",
+            "previewUrl": "https://aac.saavncdn.com/772/353f3f668f84257324f0f05e938840d7_320.mp4",
+            "artworkUrl": "https://c.saavncdn.com/772/Majha-Bappa-Marathi-2020-20240621235243-500x500.jpg",
+            "duration": 30000
+        }
+    ]
+}
